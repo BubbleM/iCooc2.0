@@ -56,5 +56,4 @@ export default {
           color: rgb(0, 153, 255)
       span
         font-size: 25px
-
 </style>

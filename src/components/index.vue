@@ -1,8 +1,16 @@
 <template>
-  <h1>index</h1>
+  <v-slider></v-slider>
 </template>
 
 <script type="text/ecmascript-6">
+  import slider from './slider.vue'
+
+  export default{
+    name: 'index',
+    components: {
+      'v-slider': slider
+    }
+  }
 
 </script>
 
