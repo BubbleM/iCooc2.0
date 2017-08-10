@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'iCooc-icon';
+  src:  url('../fonts/iCooc-icon.eot?3044y');
+  src:  url('../fonts/iCooc-icon.eot?3044y#iefix') format('embedded-opentype'),
+    url('../fonts/iCooc-icon.ttf?3044y') format('truetype'),
+    url('../fonts/iCooc-icon.woff?3044y') format('woff'),
+    url('../fonts/iCooc-icon.svg?3044y#iCooc-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iCooc-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chat:before {
+  content: "\e901";
+}
+.icon-bubbles:before {
+  content: "\e901";
+}
+.icon-talk:before {
+  content: "\e901";
+}
+.icon-message:before {
+  content: "\e901";
+}
+.icon-conversation:before {
+  content: "\e901";
+}
+.icon-add_circle:before {
+  content: "\e900";
+}
+.icon-check_circle:before {
+  content: "\e902";
+}
+.icon-close:before {
+  content: "\e903";
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e905";
+}
+.icon-remove_circle_outline:before {
+  content: "\e906";
+}
+.icon-shopping_cart:before {
+  content: "\e907";
+}
+.icon-thumb_down:before {
+  content: "\e908";
+}
+.icon-thumb_up:before {
+  content: "\e909";
+}
+.icon-home2:before {
+  content: "\e904";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-address-book:before {
+  content: "\e944";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-compass:before {
+  content: "\e949";
+}
+.icon-stopwatch:before {
+  content: "\e952";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-user-tie:before {
+  content: "\e976";
+}
+.icon-spinner7:before {
+  content: "\e980";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-key2:before {
+  content: "\e98e";
+}
+.icon-unlocked:before {
+  content: "\e990";
+}
+.icon-cogs:before {
+  content: "\e995";
+}
+.icon-gift:before {
+  content: "\e99f";
+}
+.icon-bin:before {
+  content: "\e9ac";
+}
+.icon-circle-left:before {
+  content: "\ea44";
+}
