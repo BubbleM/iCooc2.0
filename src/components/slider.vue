@@ -33,7 +33,7 @@
         if (response.code === 0) {
           this.images = response.data
         }
-        console.log(this.images)
+//        console.log(this.images)
       })
 
       this.$nextTick(() => {
