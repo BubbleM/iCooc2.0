@@ -1,24 +1,28 @@
 <template>
-  <div id="app" class="tab">
-    <div class="tab-item">
-      <router-link to="/index">
-        <span class="icon-home2"></span><br>首页
-      </router-link>
-    </div>
-    <div class="tab-item">
-      <router-link to="/friendList">
-        <span class="icon-address-book"></span><br>通讯录
-      </router-link>
-    </div>
-    <div class="tab-item">
-      <router-link to="/message">
-        <span class="icon-message"></span><br>消息
-      </router-link>
-    </div>
-    <div class="tab-item">
-      <router-link to="/my">
-        <span class="icon-user"></span><br>我的
-      </router-link>
+  <div id="app">
+    <!-- 路由切换组件 template 插入的位置 -->
+    <router-view></router-view>
+    <div class="tab">
+      <div class="tab-item">
+        <router-link to="/index">
+          <span class="icon-home2"></span><br>首页
+        </router-link>
+      </div>
+      <div class="tab-item">
+        <router-link to="/friendList">
+          <span class="icon-address-book"></span><br>通讯录
+        </router-link>
+      </div>
+      <div class="tab-item">
+        <router-link to="/message">
+          <span class="icon-message"></span><br>消息
+        </router-link>
+      </div>
+      <div class="tab-item">
+        <router-link to="/my">
+          <span class="icon-user"></span><br>我的
+        </router-link>
+      </div>
     </div>
   </div>
 </template>
@@ -47,4 +51,5 @@ export default {
       text-align: center
       span
         font-size: 25px
+
 </style>
