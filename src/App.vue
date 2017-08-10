@@ -49,6 +49,11 @@ export default {
     .tab-item
       flex: 1
       text-align: center
+      & > a
+        display: block
+        color: rgb(77, 85, 93)
+        &.active
+          color: rgb(0, 153, 255)
       span
         font-size: 25px
 
