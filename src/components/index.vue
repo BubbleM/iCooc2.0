@@ -3,13 +3,13 @@
     <v-slider></v-slider>
     <div class="job-wrapper" v-for="item in jobList">
       <div class="icon">
-        <img :src="item.compId.compLogoUrl" alt="" width="100" height="100">
+        <img :src="item.compId.compLogoUrl" alt="" width="80" height="80">
       </div>
       <div class="content">
         <h2 class="jobName">{{item.jobName}}</h2>
         <p class="compName">{{item.compId.compName}}</p>
         <div class="extra">
-          <span>{{item.compId.compCity}}｜{{item.compId.financingType}}｜{{item.compId.type}}</span>
+          <span>{{item.compId.type}}｜{{item.compId.compCity}}</span><br>
           <span>{{item.education}}｜{{item.experience}}｜{{item.salary}}</span>
         </div>
       </div>
