@@ -1,5 +1,6 @@
 <template>
   <div class="carousel-wrap" id="carousel">
+    <search></search>
     <!--轮播图列表-->
     <transition-group class="slider-ul">
       <li v-for="(list, index) in images" :key="index"　v-show="index===currentIndex"
@@ -17,6 +18,8 @@
 </template>
 
 <script type="text/ecmascript-6">
+  import search from './search.vue'
+
   export default {
     name: 'slider',
     data () {
@@ -61,6 +64,9 @@
           this.currentIndex = 0
         }
       }
+    },
+    components: {
+      search
     }
   }
 </script>
@@ -81,6 +87,7 @@
         img
           width: 100%
           height: 100%
+          padding-top: 40px
     .carousel-items
         position: absolute
         z-index: 10
