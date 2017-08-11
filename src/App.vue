@@ -45,7 +45,7 @@ export default {
     width: 100%
     height: 40px
     font-size: 14px
-    background-color: rgb(153, 153, 153)
+    background-color: #fff
     border-top: 1px solid rgba(7, 17, 27, 0.1)
     .tab-item
       flex: 1

@@ -69,4 +69,6 @@
     .time
       flex: 1
       margin: auto
+    &:last-child
+      margin-bottom: 40px
 </style>
